@@ -4,18 +4,18 @@
 
 int main()
 {
-  double hours, rate, pay;
+  double candy, dollars, pay;
 
   // Get the number of hours worked.
-  std::cout << "How many hours did you work? ";
-  std::cin >> hours;
+  std::cout << "How many candy bars did you sell? ";
+  std::cin >> candy;
 
   // Get the hourly pay rate.
-  std::cout << "How much do you get paid per hour? ";
-  std::cin >> rate;
+  std::cout << "How much does the organization earn for each bar sold ";
+  std::cin >> dollars;
 
   // Calculate the pay.
-  pay = hours * rate;
+  pay = candy * dollars;
 
   // Display the pay.
   std::cout << "You have earned $" << pay << std::endl;
